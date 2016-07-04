@@ -1,0 +1,409 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Patria-Burg</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta  charset="utf-8" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/swipebox.css">
+<link href="css/animate.css" rel='stylesheet' type='text/css' />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<!---- Inicio Del Smoting---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+</script>
+<!---Fin Del Smoting---->
+<!------ Light Box ------>
+    
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>	
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/style4.css" />
+<script type="text/javascript">
+		// Don't use this code on your site
+  		var _gaq = _gaq || [];
+  		_gaq.push(['_setAccount', 'UA-7243260-2']);
+ 		_gaq.push(['_trackPageview']);
+
+  		(function() {
+    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  		})();
+	</script>
+	<!--Plugin Wow-->
+<script src="js/wow.min.js"></script>
+
+<script>
+	new WOW().init();
+</script>
+<!---/Plugin Wow---->
+
+	</head>
+	
+<body>
+	<div class="header-banner" id="head">
+		  <div class="slider">
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider">
+	        <li>
+	          <img src="images/1.jpg" alt="">
+	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="index.html">Patria-Burg</a>
+	          		</div>
+	          	<h3>Titulo</h3>
+	          </div>
+	        </li>
+	        <li>
+	          <img src="images/2.jpg" alt="">
+	        	 <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	        	 	<div class="logo">
+	          		<a href="index.html">Patria-Burg</a>
+	          		</div>
+	        	 <h3>Titulo</h3>
+	         </li>
+	        <li>
+	          <img src="images/3.jpg" alt="">
+	          <div class="caption wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="index.html">Patria-Burg</a>
+	          		</div>
+	          	<h3>Titulo</h3>
+	          	</div>
+	        </li>
+	        <li>
+	          <img src="images/4.jpg" alt="">
+	          <div class="caption wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+	          	<div class="logo">
+	          		<a href="index.html-">Patria-Burg</a>
+	          		</div>
+	          	<h3>Titulo</h3>
+	          	</div>
+	        </li>
+	      </ul>
+	  </div>
+  </div>
+	<div class="header-bottom" id="capa">
+			<div class="fixed-header">
+			<div class="container">
+				<div class="top-menu">
+					<span class="menu"><img src="images/nav.png" alt=""/> </span>
+                     <ul>
+						<nav class="cl-effect-5">
+					 <li><a  href="index.html"><span data-hover="Incio">Inicio</span></a></li>
+					 <!--<li><a class="scroll" href="#service"><span data-hover="service">service</span></a></li>-->
+					 <li><a class="scroll" href="#about"><span data-hover="Comida">Comida</span></a></li>
+					 <li><a href="menu.html"><span data-hover="Menu">Menu</span></a></li>
+					 <!--<li><a  href="event.html"><span data-hover="event">event</span></a></li>-->
+					 <li><a class="scroll" href="#tests"><span data-hover="Opiniones">Opiniones</span></a></li>
+					 <li><a class="scroll" href="#location"><span data-hover="Dirección">Dirección</span></a></li>
+					 
+					 </nav>
+				 </ul>
+				 <!-- script for menu -->
+					<!--script-nav-->
+		 <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+         <script>
+              $(document).ready(function(){
+             $("#quitame1").click(function(event){
+                   $("#capa").addClass("clasecss");
+                });
+                     });
+         </script>
+         <script>
+        $(document).ready(function(){
+            $("#quitame2").click(function(){
+                $("#capa").removeClass("clasecss");
+            });
+        });
+        </script>
+      
+        
+
+					<!-- //script for menu -->
+
+						<!-- script-for sticky-nav -->
+						<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-bottom").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-bottom").addClass("fixed");
+				}else{
+					$(".header-bottom").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+					<!-- //script-for sticky-nav -->		
+			 </div>
+
+				</div>
+			</div>
+		</div>
+		<div class="content">
+		<div class="service-section black" id="service">
+			<div class="container">
+				<h2 class="text-white">PATRIA-BURG</h2>
+				<p>Mil sabores un solo lugar. </p>
+			
+				</div>
+           </div>
+			<!--1° Section-->
+				<div class="about-section" id="about">
+					<div class="container">
+						<h3>Pricipales Delicias</h3>
+						 <div class="main wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;"> 
+
+		               	 <div class="view view-fourth ">
+		                    <img src="images/p1.jpg" />		                  		                    
+		                    <div class="mask">
+		                        <h2>Perrito caliente</h2>
+		                        <p>El perro caliente, también llamado pancho en el Cono Sur, es un tipo de comida rápida que se genera con la combinación de una salchicha de tipo salchicha de Frankfurt</p>
+		                    </div>
+		                </div>
+
+		                <div class="view view-fourth view1">
+		                    <img src="images/p2.jpg" />
+		                    <div class="mask">
+		                        <h2>Pepito</h2>
+		                        <p>
+		                        El pepito es un plato venezolano preferido comida de la calle carne (o pollo) sandwich, empapado con salsas y condimentos.</p>
+		                    </div>
+		                </div>
+
+		                <div class="view view-fourth">
+		                    <img src="images/p3.jpg" />
+		                    <div class="mask">
+		                        <h2>Hamburguesa</h2>
+		                        <p>Una hamburguesa es un alimento procesado en forma de bocadillo de carne picada aglutinada en forma de filete, cocinado a la parrilla o a la plancha,</p>
+		                    </div>
+		                </div>
+
+		                <div class="clearfix"></div>
+		                </div>
+					</div>
+				</div>
+					<!--1° Section-->
+
+
+				<div class="menu-section">
+					<div class="container">
+						<h3>Nuestros Precios</h3>
+						<div class="menu-grids wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+							<div class="col-md-3 menu-grid">
+								<img src="images/p4.jpg" class="img-responsive" alt="" />
+								<div class="menu-info">
+									<h4>Bsf.700</h4>
+									<h5>Texto</h5>
+									</div>
+								</div>
+								<div class="col-md-3 menu-grid ">
+								<img src="images/p5.jpg" class="img-responsive" alt="" />
+								<div class="menu-info">
+									<h4>Bsf.700<!--<sup>99</sup>--></h4>
+									<h5>Texto </h5>
+									</div>
+								</div>
+								<div class="col-md-3 menu-grid menu1 ">
+								<img src="images/p6.jpg" class="img-responsive" alt="" />
+								<div class="menu-info">
+									<h4>Bsf.700<!--<sup>99</sup>--></h4>
+									<h5>Texto</h5>
+									</div>
+								</div>
+								<div class="col-md-3 menu-grid menu1">
+								<img src="images/p7.jpg" class="img-responsive" alt="" />
+								<div class="menu-info">
+									<h4>Bsf.700<!--<sup>99</sup>--></h4>
+									<h5>Texto</h5>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+					<!--2°Section-->
+				<div class="test-section" id="tests">
+					<div class="container">
+						<h3>Testimonios</h3>
+						<div class="test-grids ">
+							<div class="test-grid1 wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+								<div class="col-md-5 test-left test1">
+								<img src="images/p8.jpg" class="img-responsive" alt="" />
+								<!--
+								<div class="textbox">
+								<p>Aenean nonummyen</p>
+								<h4>$ 29.<sup>95</sup></h4>
+								</div>
+								-->
+								</div>
+								<div class="col-md-7 test-right">
+								<h4>"Exelencia</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eos nobis laboriosam ratione minus mollitia voluptas repudiandae rerum nesciunt, necessitatibus, illo nostrum magnam consectetur. Ad enim cum ipsa fugiat iste?</p>
+								</div>
+								<div class="clearfix"> </div>
+								</div>
+								<div class="test-grid2 wow bounceInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+							   <div class="col-md-7 test-left01">
+								<h4>"Bueno lugar</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eos nobis laboriosam ratione minus mollitia voluptas repudiandae rerum nesciunt, necessitatibus, illo nostrum magnam consectetur. Ad enim cum ipsa fugiat iste? </p>
+								</div>
+							   <div class="col-md-5 test-right01 test1">
+								<img src="images/p9.jpg" class="img-responsive" alt="" />
+								<!--
+								<div class="textbox">
+								<p>Aenean nonummyen</p>
+								<h4>$ 29.<sup>95</sup></h4>
+								</div>
+								-->
+								</div>
+								<div class="clearfix"> </div>
+								</div>
+								<div class="test-grid3 wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+							<div class="col-md-5 test-left test1">
+								<img src="images/p10.jpg" class="img-responsive" alt="" />
+								<!--
+								<div class="textbox">
+								<p>Aenean nonummyen</p>
+								<h4>$ 29.<sup>95</sup></h4>
+								</div>
+								-->
+								</div>
+								<div class="col-md-7 test-right">
+								<h4>"Gran atención</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eos nobis laboriosam ratione minus mollitia voluptas repudiandae rerum nesciunt, necessitatibus, illo nostrum magnam consectetur. Ad enim cum ipsa fugiat iste?</p>
+								</div>
+								<div class="clearfix"> </div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+					</div>
+
+						<!--2°Section-->
+                    <div class="service-section" id="location">
+                    <div class="container">
+                    <div class="row">
+                       <div class="text-center">
+                           <h1>¿Donde Nos Encuentras?</h1>
+                           <br>
+                           <br>
+                       </div>
+                        <div class="col-md-4">
+                            <p>Trabajamos los Dias:</p>
+                            <p>Hi</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Dirección</p>
+                            <p>Hi</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Horario</p>
+                            <p>Hi</p>
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+			<div class="contact-section">
+				<div class="container">
+					<h3>Contactanos</h3>
+					<div class="contact-grids wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">">
+			    <div class="col-md-6 contactgrid">
+				<input type="text" class="text" value="Nombre" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Nombre';}">
+				</div>
+				<div class="col-md-6 contactgrid " style="    top: -18px;">
+				<input type="text" class="text" value="Correo" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Correo';}">
+				</div>
+				<div class="col-md-6 contactgrid">
+				<input type="text" class="text" value="Telefono" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telefono';}">
+				</div>
+				<div class="col-md-6 contactgrid">
+				<input type="text" class="text" value="Mensaje" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mensaje';}">
+				</div>
+				<div class="col-md-12 contactgrid2">
+				<input type="button" value="Envia Mensaje">
+			   </div>
+			   <div class="clearfix"></div>
+				</div>
+				</div>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="container">
+					<div class="footer-top wow bounceInRight animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">">
+								<div class="social-icons">
+										<a href="#"><i class="icon4"></i></a>
+										<a href="#"><i class="icon5"></i></a>
+										<a href="#"><i class="icon6"></i></a>
+									</div>
+								</div>
+							<div class="footer-bottom">
+						<p> Copyright &copy;2016  Sin Derechos  Reserved | Design by Una Persona Con Teclado</p>
+						<br>
+						<h3 class="text-white">¿Agragar o quitar El Menu de Navegación?</h3>
+						<img src="images/success.png" class="sepa poi" height="50" id="quitame2" alt="">
+						<img src="images/cancel.png"  class="sepa poi" height="50" id="quitame1" alt="">
+						
+						
+                      					
+				
+						</div>
+						<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a class="scroll" href="#head" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
+					</div>
+				</div>
+</body>
+</html>
